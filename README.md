@@ -4,6 +4,8 @@ Extra tray icons (Dropbox, Steam, etc.) for KDE Plasma 5 built-in themes
 (Breeze). Those icons can not be included in KDE because of trademark policies
 or less popularity.
 
+![Screenshot](screenshot.png)
+
 ## Icons
 
 * dropbox
