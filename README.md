@@ -15,6 +15,10 @@ or less popularity.
   * dropboxstatus-x (errors)
 * steam
   * steam_tray_mono
+* telegram
+  * ico_22_n.png
+  * icomute_22_n.png
+
 
 TODO:
 
