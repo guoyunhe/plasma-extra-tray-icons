@@ -35,7 +35,10 @@ make install
 ```
 
 By default, icons are installed in `~/.local/share/plasma/desktoptheme/default/icons`.
-Dropbox icons are installed in `~/.dropbox-dist/dropbox-lnx.xxxxxxx/images/hicolor/16x16/status`.
+
+Dropbox icons are installed in `~/.dropbox-dist/dropbox-xxx/images/hicolor/16x16/status`.
+
+Telegram icons are installed in `~/.TelegramDesktop/tdata/ticons`.
 
 ## License
 
