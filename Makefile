@@ -7,9 +7,7 @@ dropboxicondir = $(wildcard ~/.dropbox-dist/*/images/hicolor/16x16/status)
 telegramicondir = $(wildcard ~/.TelegramDesktop/tdata/ticons)
 telegramicons = $(patsubst $(telegramicondir)/%, breeze/telegram/%, $(wildcard $(telegramicondir)/*.png))
 
-all: install dropbox_hack telegram_hack
-
-install:
+install:  dropbox_hack telegram_hack
 	$(INSTALLDIR) $(datadir)/plasma/desktoptheme/default/icons
 	$(INSTALL) breeze/*.svgz $(datadir)/plasma/desktoptheme/default/icons
 
