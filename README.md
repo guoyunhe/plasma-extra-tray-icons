@@ -30,6 +30,8 @@ Please follow [Breeze guidelines](https://community.kde.org/KDE_Visual_Design_Gr
 
 ## Install
 
+### User Directory
+
 ```
 make install
 ```
@@ -39,6 +41,26 @@ By default, icons are installed in `~/.local/share/plasma/desktoptheme/default/i
 Dropbox icons are installed in `~/.dropbox-dist/dropbox-xxx/images/hicolor/16x16/status`.
 
 Telegram icons are installed in `~/.TelegramDesktop/tdata/ticons`.
+
+### System Directory
+
+```
+sudo make prefix=/usr/local install
+```
+
+This will install icons in `/usr/local/share/plasma/desktoptheme/default/icons`.
+
+Telegram and Dropbox icons won't work.
+
+### Packaging
+
+```
+make -i DESTDIR="%buildroot" prefix="/usr" install
+```
+
+Package will install icons in `/usr/share/plasma/desktoptheme/default/icons`.
+
+Telegram and Dropbox icons won't work.
 
 ## License
 
